@@ -1,0 +1,81 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"lirlCAANyj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Device Management</span>\",\"col\":12}},{\"id\":\"PbgHDRRfxX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Approved Asset Requests\",\"col\":3}},{\"id\":\"lENAS4RvoH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Requests\",\"col\":3}},{\"id\":\"a9SA29-_Zw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Laptops\",\"col\":3}},{\"id\":\"fuTHr5kEgq\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Monitors\",\"col\":3}},{\"id\":\"fG8bc-BRVA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Headsets\",\"col\":3}},{\"id\":\"8RKZlsxzH3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Mobile phones\",\"col\":3}}]",
+ "creation": "2026-06-19 11:34:51.358913",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Device Team Portal",
+ "links": [],
+ "modified": "2026-06-19 11:51:45.062749",
+ "modified_by": "Administrator",
+ "module": "Asset Management",
+ "name": "Device Team Portal",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Device Team"
+  }
+ ],
+ "sequence_id": 29.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Laptops",
+   "link_to": "Asset",
+   "stats_filter": "[[\"Asset\",\"asset_name\",\"=\",\"Laptop\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Approved Asset Requests",
+   "link_to": "Asset Request",
+   "stats_filter": "[[\"Asset Request\",\"workflow_state\",\"=\",\"Approved\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "All Requests",
+   "link_to": "Asset Request",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Monitors",
+   "link_to": "Asset",
+   "stats_filter": "[[\"Asset\",\"asset_name\",\"=\",\"Monitor\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Headsets",
+   "link_to": "Asset",
+   "stats_filter": "[[\"Asset\",\"asset_name\",\"=\",\"Headset\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Mobile phones",
+   "link_to": "Asset",
+   "stats_filter": "[[\"Asset\",\"asset_name\",\"=\",\"Mobile Phone\",false]]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Device Team Portal"
+}

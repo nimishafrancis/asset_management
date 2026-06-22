@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "AR-.####",
+ "creation": "2026-06-18 10:48:03.023344",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "requester",
+  "asset_name",
+  "preferred_model",
+  "urgency",
+  "status",
+  "remarks",
+  "request_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "requester",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Requester",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "asset_name",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Asset name",
+   "options": "Laptop\nMonitor\nHeadset\nMobile Phone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "preferred_model",
+   "fieldtype": "Data",
+   "label": "Preferred Model"
+  },
+  {
+   "default": "Medium",
+   "fieldname": "urgency",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Urgency",
+   "options": "Low\nMedium\nHigh",
+   "reqd": 1
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Draft\nPending Request\nApproved\nRejected\nFulfilled",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "request_date",
+   "fieldtype": "Date",
+   "label": "Request date"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-06-22 10:14:50.350716",
+ "modified_by": "Administrator",
+ "module": "Asset Management",
+ "name": "Asset Request",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Device Team",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Employee",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

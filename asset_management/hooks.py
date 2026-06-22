@@ -247,3 +247,12 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+permission_query_conditions = {
+    "Asset Request": "asset_management.permissions.asset_request_query",
+    "Assignment": "asset_management.permissions.assignment_query",
+}
+
+has_permission = {
+    "Asset Request": "asset_management.permissions.asset_request_has_permission",
+    "Assignment": "asset_management.permissions.assignment_has_permission",
+}

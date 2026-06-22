@@ -1,0 +1,41 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"I_LWF2DLEN\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Employee Portal</span>\",\"col\":12}},{\"id\":\"4QPe-A-W46\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"My requests\",\"col\":3}}]",
+ "creation": "2026-06-19 12:18:10.930307",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Employee Portal",
+ "links": [],
+ "modified": "2026-06-19 12:21:36.877240",
+ "modified_by": "Administrator",
+ "module": "Asset Management",
+ "name": "Employee Portal",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Employee"
+  }
+ ],
+ "sequence_id": 31.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "My requests",
+   "link_to": "Asset Request",
+   "stats_filter": "[[\"Asset Request\",\"name\",\"=\",null,false]]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Employee Portal"
+}
