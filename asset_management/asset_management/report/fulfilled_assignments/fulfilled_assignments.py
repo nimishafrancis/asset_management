@@ -19,9 +19,7 @@ def get_columns():
         {"label": "Category", "fieldname": "asset_name", "fieldtype": "Data", "width": 120},
         {"label": "Model", "fieldname": "model", "fieldtype": "Data", "width": 150},
         {"label": "Assigned To", "fieldname": "assigned_to", "fieldtype": "Link", "options": "User", "width": 200},
-        {"label": "Request", "fieldname": "asset_request", "fieldtype": "Link", "options": "Asset Request", "width": 140},
-        {"label": "Requested", "fieldname": "request_date", "fieldtype": "Date", "width": 110},
-        {"label": "Issued", "fieldname": "date_issued", "fieldtype": "Date", "width": 110},
+  
     ]
 
 
