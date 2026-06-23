@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"1flrymONDj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Manager Portal</span>\",\"col\":12}},{\"id\":\"N8bt1bUNMT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Requests\",\"col\":3}},{\"id\":\"CuScKrJzPJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pending Approvals\",\"col\":3}}]",
+ "content": "[{\"id\":\"1flrymONDj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Manager Portal</span>\",\"col\":12}},{\"id\":\"N8bt1bUNMT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Requests\",\"col\":3}},{\"id\":\"CuScKrJzPJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pending Approvals\",\"col\":3}},{\"id\":\"YjuTCnuS4Q\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Pending Asset Requests\",\"col\":3}}]",
  "creation": "2026-06-19 11:40:48.083146",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,7 +12,7 @@
  "is_hidden": 0,
  "label": "Manager Portal",
  "links": [],
- "modified": "2026-06-19 11:53:05.552104",
+ "modified": "2026-06-23 11:15:22.574254",
  "modified_by": "Administrator",
  "module": "Asset Management",
  "name": "Manager Portal",
@@ -35,6 +35,14 @@
    "link_to": "Asset Request",
    "stats_filter": "[]",
    "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Pending Asset Requests",
+   "link_to": "Pending Asset Requests",
+   "report_ref_doctype": "Asset Request",
+   "type": "Report"
   },
   {
    "color": "Grey",

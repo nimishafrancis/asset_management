@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"lirlCAANyj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Device Management</span>\",\"col\":12}},{\"id\":\"PbgHDRRfxX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Approved Asset Requests\",\"col\":3}},{\"id\":\"lENAS4RvoH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Requests\",\"col\":3}},{\"id\":\"a9SA29-_Zw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Laptops\",\"col\":3}},{\"id\":\"fuTHr5kEgq\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Monitors\",\"col\":3}},{\"id\":\"fG8bc-BRVA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Headsets\",\"col\":3}},{\"id\":\"8RKZlsxzH3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Mobile phones\",\"col\":3}}]",
+ "content": "[{\"id\":\"lirlCAANyj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Device Management</span>\",\"col\":12}},{\"id\":\"PbgHDRRfxX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Approved Asset Requests\",\"col\":3}},{\"id\":\"lENAS4RvoH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"All Requests\",\"col\":3}},{\"id\":\"a9SA29-_Zw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Laptops\",\"col\":3}},{\"id\":\"fuTHr5kEgq\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Monitors\",\"col\":3}},{\"id\":\"fG8bc-BRVA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Headsets\",\"col\":3}},{\"id\":\"8RKZlsxzH3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Mobile phones\",\"col\":3}},{\"id\":\"8TXkqCewS3\",\"type\":\"card\",\"data\":{\"card_name\":\"Asset Reports\",\"col\":4}}]",
  "creation": "2026-06-19 11:34:51.358913",
  "custom_blocks": [],
  "docstatus": 0,
@@ -11,8 +11,49 @@
  "indicator_color": "green",
  "is_hidden": 0,
  "label": "Device Team Portal",
- "links": [],
- "modified": "2026-06-19 11:51:45.062749",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Reports",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Asset Inventory",
+   "link_count": 0,
+   "link_to": "Asset Inventory",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Awaiting Assignment",
+   "link_count": 0,
+   "link_to": "Awaiting Assignment",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Fulfilled Assignments",
+   "link_count": 0,
+   "link_to": "Fulfilled Assignments",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Assignment",
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-06-23 11:15:09.925434",
  "modified_by": "Administrator",
  "module": "Asset Management",
  "name": "Device Team Portal",
