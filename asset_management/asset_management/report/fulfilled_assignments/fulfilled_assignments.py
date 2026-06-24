@@ -19,7 +19,11 @@ def get_columns():
         {"label": "Category", "fieldname": "asset_name", "fieldtype": "Data", "width": 120},
         {"label": "Model", "fieldname": "model", "fieldtype": "Data", "width": 150},
         {"label": "Assigned To", "fieldname": "assigned_to", "fieldtype": "Link", "options": "User", "width": 200},
+<<<<<<< HEAD
   
+=======
+        
+>>>>>>> b3b682a (Remove Request, Requested, Issued columns from Fulfilled Assignments report)
     ]
 
 
